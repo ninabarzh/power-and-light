@@ -3,9 +3,6 @@
 Identify likely rogue access points by MAC OUI analysis
 """
 
-import re
-from collections import defaultdict
-
 # MAC OUI database (first 6 characters identify manufacturer)
 consumer_vendors = [
     'NETGEAR', 'TP-LINK', 'Linksys', 'ASUS', 'D-Link',
